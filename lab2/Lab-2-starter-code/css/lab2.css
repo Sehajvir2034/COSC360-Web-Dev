@@ -1,0 +1,121 @@
+header,
+footer {
+  color: white;
+  background-color: #312c32;
+  margin: 0em 4em 0.5em 4em;
+}
+h1 {
+  font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 0.75em;
+}
+
+h3,
+nav {
+  font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 1.125em;
+}
+footer {
+  font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+}
+main {
+  margin: 1.25em 4em 0.5em 4em;
+  background-color: #ffffff;
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 100%;
+  background-color: #98dafc;
+}
+section {
+  padding: 10px;
+}
+a:link {
+  font-weight: bold;
+  color: #98dafc;
+}
+a:visited {
+  color: #daad86;
+}
+a:hover {
+  color: #ffffcc;
+}
+#largePicture {
+  position: relative;
+  margin-left: 0.5em;
+  width: 98%;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.05em;
+  padding: 0.25em;
+}
+#DescriptionText {
+  font-size: 1.25em;
+}
+#photoInfoText {
+  margin-bottom: 1em;
+  margin-top: -0.15em;
+  font-size: 1.15em;
+}
+#hrStlying {
+  margin-top: -0.025em;
+}
+#navSection {
+  margin-top: 0.5em;
+  padding-bottom: 0.45em;
+  font-size: 1.25em;
+}
+#comments {
+  border-bottom: 0.09em dotted gray;
+  margin-bottom: 1.25em;
+}
+.byline {
+  color: gray;
+  font-style: italic;
+  margin-bottom: 0.75em;
+  border-top: 0.09em solid gray;
+  padding-top: 0.75em;
+}
+span.glyphicon {
+  display: inline-block;
+  padding: 10px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+span.shareText {
+  position: absolute;
+  display: inline-block;
+  font-size: 70%;
+  padding-top: 1.5em;
+}
+.icons {
+  display: inline-block;
+  padding-left: 2.1em;
+}
+.gradient {
+  border-style: solid;
+  border-color: black;
+  border-width: 0.05em;
+  border-radius: 0.3em;
+  height: 50px;
+  background-image: url(../images/gray-gradient.png);
+  background-repeat: repeat-x;
+  padding-left: 0.75em;
+}
+.relatedPhotos {
+  border-top: 0.09em solid gray;
+  padding-top: 0.75em;
+}
+.footerLinks {
+  padding-left: 0.75em;
+  padding-top: 0.75em;
+}
+.rights {
+  padding-left: 0.75em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+}

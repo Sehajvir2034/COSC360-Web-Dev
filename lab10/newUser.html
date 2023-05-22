@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="scripts/validate.js"></script>
+
+    <!-- Password checking script here!! -->
+    <script>
+      function checkPasswordMatch(e) {
+        var password = document.getElementById("password");
+        var passwordCheck = document.getElementById("password-check");
+
+        if (password.value === passwordCheck.value) {
+          console.log("The passwords were a match!");
+          e.submit();
+        } else {
+          console.log("Thr passwords are not a match!");
+          alert("Passwords does not match");
+          makeRed(password);
+          makeRed(passwordCheck);
+        }
+        e.preventDefault();
+      }
+    </script>
+  </head>
+
+  <body>
+    <form
+      method="post"
+      action="newuser.php"
+      id="mainForm"
+      enctype="multipart/form-data"
+    >
+      First Name:<br />
+      <input type="text" name="firstname" id="firstname" class="required" />
+      <br />
+      Last Name:<br />
+      <input type="text" name="lastname" id="lastname" class="required" />
+      <br />
+      Username:<br />
+      <input type="text" name="username" id="username" class="required" />
+      <br />
+      email:<br />
+      <input type="text" name="email" id="email" class="required" />
+      <br />
+      Password:<br />
+      <input type="password" name="password" id="password" class="required" />
+      <br />
+      Re-enter Password:<br />
+      <input
+        type="password"
+        name="password-check"
+        id="password-check"
+        class="required"
+      />
+      <br />
+      Image upload:<br />
+      <input
+        name="fileToUpload"
+        id="fileToUpload"
+        type="file"
+        accept=".jpg, .jpeg, .png, .gif"
+        size="100000"
+      />
+      <br /><br />
+      <input type="submit" value="Create New User" name="submit" />
+    </form>
+  </body>
+</html>

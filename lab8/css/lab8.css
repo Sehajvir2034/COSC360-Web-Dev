@@ -1,0 +1,36 @@
+.mainBody {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #d7e6fa;
+}
+
+#mainForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 2em;
+}
+label {
+  display: block;
+  color: rgb(57, 26, 4);
+  font-size: 1.25em;
+  margin-top: 1em;
+}
+input {
+  display: block;
+  height: 2em;
+  font-size: 1em;
+}
+input[type="submit"] {
+  margin-top: 1em;
+  background-color: black;
+  color: antiquewhite;
+  border: 1px white solid;
+  padding: 10px 40px;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 0.5em;
+}
